@@ -1,0 +1,109 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+<link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+</head>
+<body class="bg-black">
+ 
+
+<!-- nav offcanvas -->
+  <nav class="navbar navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div class="nav-info">
+            <div class="ancors maincolor">
+                <a   class="nav-link fs-5" href="catogry.html">Home</a>
+            <a class="nav-link fs-5"  href="area.html">Area</a>
+            <a class="nav-link fs-5" href="search.html">Search</a>
+            <a class="nav-link fs-5"  href="catogry.html">Categories</a>
+            <a class="nav-link fs-5"  href="all food.html">Ingredients</a>
+            <a class="nav-link fs-5"  href="contact.html">Contact Us</a>
+           
+             
+                <div class="ToggleBtn">
+                  <div class="circle"></div>
+                </div>
+              </span>
+            </div>
+            <div class="icons-text ">
+              <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-solid fa-globe"></i>
+              </div>
+              <div class="footer">
+                <p>Copyright Â© 2023 All Rights
+                  Reserved.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+<!-- ---- -->
+<section">
+  <div class="container w-75 m-auto">
+    <div class="text-center m-auto ">
+      <h2 class="fs-1 fw-bold maincolor pt-5" id="header" > </h2>
+      
+    </div>
+    <!-- -------------- -->
+    <div class="row">
+        <div class="col-6 mt-3">
+            
+                <div class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" onkeyup="search(value)" placeholder="find food by name" aria-label="Search">
+                    
+                  </div>
+
+            
+        </div>
+
+        <div class="col-6 mt-3">
+            
+            <div class="d-flex" role="search">
+                <input class="form-control me-2" type="search" onkeyup="search(value)" placeholder="find food by first leter" aria-label="Search">
+                
+              </div>
+
+        
+    </div>
+
+        
+             
+        </div>
+
+    </div>
+   
+    <!--  -->
+    </div>
+</section>
+<!-- =----------------------------- -->
+<div class="row"  >
+    <div class="text-center m-auto w-75" id="postSearch" >
+    
+    </div>
+    </div>
+<!-- ----------------------------- -->
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script type="module" src="./js/search.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+.maincolor{
+ color: rgba(212, 168, 48, 0.8) !important;
+}
+.footer{
+position: relative !important;
+top: 0 !important;
+;
+}
+.center{
+  text-align: center !important;
+  font-size: 25px;
+  color: black;
+  margin-top: 40% !important;
+}
+.f{
+  width: 100%;
+  float: left;
+  position: relative;
+  overflow: hidden;
+  
+ 
+}
+.f img{
+  width: 98%;
+  box-shadow: 2px beige !important;
+  border-radius: 10%;
+  
+  
+}
+.overlay{
+  border-radius: 10%;
+  width: 100%;
+  height:100% ;
+  background-color: rgba(200, 156, 35, 0.7);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transition: 0.4s ease-in all;
+}
+.overlay a img{
+  width: auto !important;
+  height: auto !important;
+}
+.f:hover .overlay{
+  top:0;
+}
